@@ -1,0 +1,187 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+    "type": "Feature",
+    "id": 615687,
+    "geometry": {
+    "type": "Point",
+    "coordinates": [
+    -74.9851659999999,
+    40.0541710000001
+    ]
+    },
+    "properties": {
+    "OBJECTID": 615687,
+    "SITE_NAME": "TOR",
+    "SITE_ID": "421010075",
+    "SITE_TYPE": null,
+    "SITE_ADDRESS": "4901 GRANT AVENUE & JAMES STREET",
+    "CARBON_MONOXIDE_PPM": 0.28460855,
+    "NITROGEN_DIOXIDE_PPM": 15.0638416,
+    "OZONE_PPM": null,
+    "PM10_UG_M3": null,
+    "PM25_UG_M3": 14.0978188,
+    "SULFUR_DIOXIDE_PPB": null,
+    "SAMPLE_TIMESTAMP": 1669305600000,
+    "SAMPLE_HOUR": "11 - 12"
+    }
+    },
+    {
+    "type": "Feature",
+    "id": 615688,
+    "geometry": {
+    "type": "Point",
+    "coordinates": [
+    -75.186921,
+    39.9228670000001
+    ]
+    },
+    "properties": {
+    "OBJECTID": 615688,
+    "SITE_NAME": "RIT",
+    "SITE_ID": "421010055",
+    "SITE_TYPE": null,
+    "SITE_ADDRESS": "24TH ST. & RITNER ST., PHILADELPHIA, PA 19145",
+    "CARBON_MONOXIDE_PPM": null,
+    "NITROGEN_DIOXIDE_PPM": null,
+    "OZONE_PPM": null,
+    "PM10_UG_M3": null,
+    "PM25_UG_M3": 14.0444298,
+    "SULFUR_DIOXIDE_PPB": 1.20598452,
+    "SAMPLE_TIMESTAMP": 1669305600000,
+    "SAMPLE_HOUR": "11 - 12"
+    }
+    },
+    {
+    "type": "Feature",
+    "id": 615689,
+    "geometry": {
+    "type": "Point",
+    "coordinates": [
+    -75.1424,
+    39.9603000000001
+    ]
+    },
+    "properties": {
+    "OBJECTID": 615689,
+    "SITE_NAME": "FAB",
+    "SITE_ID": "421010057",
+    "SITE_TYPE": null,
+    "SITE_ADDRESS": "240 SPRING GARDEN STREET",
+    "CARBON_MONOXIDE_PPM": null,
+    "NITROGEN_DIOXIDE_PPM": null,
+    "OZONE_PPM": null,
+    "PM10_UG_M3": null,
+    "PM25_UG_M3": 14.2181769,
+    "SULFUR_DIOXIDE_PPB": null,
+    "SAMPLE_TIMESTAMP": 1669305600000,
+    "SAMPLE_HOUR": "11 - 12"
+    }
+    },
+    {
+    "type": "Feature",
+    "id": 615690,
+    "geometry": {
+    "type": "Point",
+    "coordinates": [
+    -75.080833,
+    39.991389
+    ]
+    },
+    "properties": {
+    "OBJECTID": 615690,
+    "SITE_NAME": "NEW",
+    "SITE_ID": "421010048",
+    "SITE_TYPE": null,
+    "SITE_ADDRESS": "3900 RICHMOND",
+    "CARBON_MONOXIDE_PPM": 0.19797707,
+    "NITROGEN_DIOXIDE_PPM": 13.520743,
+    "OZONE_PPM": 26.9163125,
+    "PM10_UG_M3": 21.2146452,
+    "PM25_UG_M3": 14.7389843,
+    "SULFUR_DIOXIDE_PPB": 0.87742133,
+    "SAMPLE_TIMESTAMP": 1669305600000,
+    "SAMPLE_HOUR": "11 - 12"
+    }
+    },
+    {
+    "type": "Feature",
+    "id": 615691,
+    "geometry": {
+    "type": "Point",
+    "coordinates": [
+    -75.207205,
+    39.9888290000001
+    ]
+    },
+    "properties": {
+    "OBJECTID": 615691,
+    "SITE_NAME": "MON",
+    "SITE_ID": "421010076",
+    "SITE_TYPE": null,
+    "SITE_ADDRESS": "4100 MONTGOMERY DRIVE",
+    "CARBON_MONOXIDE_PPM": 0.62073531,
+    "NITROGEN_DIOXIDE_PPM": 17.7760142,
+    "OZONE_PPM": null,
+    "PM10_UG_M3": null,
+    "PM25_UG_M3": 13.176081,
+    "SULFUR_DIOXIDE_PPB": null,
+    "SAMPLE_TIMESTAMP": 1669305600000,
+    "SAMPLE_HOUR": "11 - 12"
+    }
+    },
+    {
+    "type": "Feature",
+    "id": 615692,
+    "geometry": {
+    "type": "Point",
+    "coordinates": [
+    -75.0977,
+    40.00892
+    ]
+    },
+    "properties": {
+    "OBJECTID": 615692,
+    "SITE_NAME": "LABP",
+    "SITE_ID": "421010004",
+    "SITE_TYPE": null,
+    "SITE_ADDRESS": "EAST LYCOMING ST., PHILADELPHIA, PA 19124",
+    "CARBON_MONOXIDE_PPM": null,
+    "NITROGEN_DIOXIDE_PPM": null,
+    "OZONE_PPM": 22.9374167,
+    "PM10_UG_M3": null,
+    "PM25_UG_M3": 13.1770137,
+    "SULFUR_DIOXIDE_PPB": null,
+    "SAMPLE_TIMESTAMP": 1669305600000,
+    "SAMPLE_HOUR": "11 - 12"
+    }
+    },
+    {
+    "type": "Feature",
+    "id": 615693,
+    "geometry": {
+    "type": "Point",
+    "coordinates": [
+    -75.011944,
+    40.0763890000001
+    ]
+    },
+    "properties": {
+    "OBJECTID": 615693,
+    "SITE_NAME": "NEA",
+    "SITE_ID": "421010024",
+    "SITE_TYPE": null,
+    "SITE_ADDRESS": "GRANT AVENUE & ASHTON ROAD, PHILADELPHIA, PA",
+    "CARBON_MONOXIDE_PPM": null,
+    "NITROGEN_DIOXIDE_PPM": null,
+    "OZONE_PPM": 28.4031395,
+    "PM10_UG_M3": null,
+    "PM25_UG_M3": null,
+    "SULFUR_DIOXIDE_PPB": null,
+    "SAMPLE_TIMESTAMP": 1669305600000,
+    "SAMPLE_HOUR": "11 - 12"
+    }
+    }
+    ]
+    }
