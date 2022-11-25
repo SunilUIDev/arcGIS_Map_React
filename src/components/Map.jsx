@@ -12,16 +12,19 @@ export default function Map() {
             const webMap = new WebMap({
                 basemap: 'topo-vector'
             });
+            // added map
             mapView = new MapView({
                 map: webMap,
                 center: [-83, 42],
-                zoom: 3,
+                zoom: 4,
                 container: mapRef.current,
             });
+            // add geo data
             const geoJSONLayer = new GeoJSONLayer({
                 url:"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
             });
             webMap.add(geoJSONLayer);
+            // Added search widget
             const searchWidget = new Search({
                 view: mapView
               });
@@ -29,6 +32,7 @@ export default function Map() {
                 position: "top-right",
                 index: 2,
               });
+              // Added home button on map
               const homeWidget = new Home({
                 view: mapView
               });
