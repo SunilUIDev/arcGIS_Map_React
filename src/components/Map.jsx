@@ -15,13 +15,49 @@ export default function Map() {
             // added map
             mapView = new MapView({
                 map: webMap,
-                center: [-83, 42],
-                zoom: 4,
+                center: [-74.9851659999999,
+                  40.0541710000001],
+                zoom: 10,
                 container: mapRef.current,
             });
+            // add renderer and template
+            const template = {
+              title: "Located Sites",
+              content: "Site Name <strong>{SITE_NAME}</strong> and Site Address <strong>{SITE_ADDRESS}</strong>",
+            };
+    
+            const renderer = {
+              type: "simple",
+              field: "SITE_ADDRESS",
+              symbol: {
+                type: "simple-marker",
+                color: "red",
+                outline: {
+                  color: "white"
+                }
+              },
+              visualVariables: [
+                {
+                  type: "size",
+                  field: "SITE_ADDRESS",
+                  stops: [
+                    {
+                      value: 2.5,
+                      size: "4px"
+                    },
+                    {
+                      value: 8,
+                      size: "40px"
+                    }
+                  ]
+                }
+              ]
+            };
             // add geo data
             const geoJSONLayer = new GeoJSONLayer({
-                url:"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
+                url:"https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/LATEST_CORE_SITE_READINGS/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson",
+                popupTemplate: template,
+                renderer: renderer
             });
             webMap.add(geoJSONLayer);
             // Added search widget
