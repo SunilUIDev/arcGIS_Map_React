@@ -20,10 +20,10 @@ export default function Map() {
                 zoom: 10,
                 container: mapRef.current,
             });
-            // add renderer and template
+            // added renderer and template
             const template = {
               title: "Located Sites",
-              content: "Site Name <strong>{SITE_NAME}</strong> and Site Address <strong>{SITE_ADDRESS}</strong>",
+              content: `Site Name <strong>{SITE_NAME}</strong> <br/> Site Address <strong>{SITE_ADDRESS}</strong>`,
             };
     
             const renderer = {
@@ -31,7 +31,7 @@ export default function Map() {
               field: "SITE_ADDRESS",
               symbol: {
                 type: "simple-marker",
-                color: "red",
+                color: "#FF5733",
                 outline: {
                   color: "white"
                 }
@@ -40,16 +40,6 @@ export default function Map() {
                 {
                   type: "size",
                   field: "SITE_ADDRESS",
-                  stops: [
-                    {
-                      value: 2.5,
-                      size: "4px"
-                    },
-                    {
-                      value: 8,
-                      size: "40px"
-                    }
-                  ]
                 }
               ]
             };
