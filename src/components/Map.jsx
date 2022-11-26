@@ -15,12 +15,12 @@ export default function Map() {
             // added map
             mapView = new MapView({
                 map: webMap,
-                center: [-74.9851659999999,
-                  40.0541710000001],
+                center: [-75.080833,
+                  39.991389],
                 zoom: 10,
                 container: mapRef.current,
             });
-            // added renderer and template
+            // added template to display info on popup
             const template = {
               title: "Located Sites",
               content: `Site Name <strong>{SITE_NAME}</strong> <br/> Site Address <strong>{SITE_ADDRESS}</strong>`,
@@ -32,6 +32,7 @@ export default function Map() {
               symbol: {
                 type: "simple-marker",
                 color: "#FF5733",
+                size: "25px",
                 outline: {
                   color: "white"
                 }
@@ -39,7 +40,7 @@ export default function Map() {
               visualVariables: [
                 {
                   type: "size",
-                  field: "SITE_ADDRESS",
+                  field: "OBJECTID",
                 }
               ]
             };
@@ -64,7 +65,7 @@ export default function Map() {
               });
               mapView.ui.add(homeWidget, "top-left");
         })
-        // unmounting
+        // unmounting map
         return(()=>{
             if(!!mapView) {
                 mapView.destroy();
